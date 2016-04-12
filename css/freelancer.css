@@ -195,6 +195,11 @@ header .intro-text .skills {
     border: 0;
 }
 
+#curriculum{
+    text-align: center;
+    margin-top: 1em;
+}
+
 section {
     padding: 100px 0;
 }
