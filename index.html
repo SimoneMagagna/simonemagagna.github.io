@@ -1,338 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Personal Website">
-    <meta name="author" content="Simone Magagna">
-
-    <title>Simone Magagna</title>
-    <link href="img/favicon-96x96.png" rel="shortcut icon" type="image/x-icon" />
-
-    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+	<meta charset="UTF-8">
+	<meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Home - Scuola delle 9 Armonie Conselve</title>
+	<link href="images/logo.png" rel="shortcut icon" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	<script type='text/javascript' src='js/mobile.js'></script>
 </head>
-
-<body id="page-top" class="index">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <p id="profilo"><a href="#page-top">Profilo</a></p>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Progetti</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contatti</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/me.png" alt="">
-                    <div class="intro-text">
-                        <span class="name">Simone Magagna</span>
-                        <hr class="star-light">
-                        <span class="skills">Computer Sience Student - Martial Art Istructor</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Progetti</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/QuizziPedia.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/Scuola.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/LinQedin.PNG" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>>
-    </section>
-
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Sono uno studente di informatica presso il Dipartimento di Matematica all'Università di Padova dal 2012. Ho conseguito il diploma all'Istituto di Studi Superiore "Enrico Mattei" nell'indirizzo Liceo Scientifico nel 2010. Per due anni, dal 2010 al 2012, ho frequentato Ingegneria dell'Informazione sempre presso l'Università di Padova.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Ho realizzato il sito dell' <a href="http://www.scuola9armonieconselve.it/">A.S.D. Scuola delle Nove Armonie Conselve</a> e lavoro presso l'azienda Comag s.n.c. per lo sviluppo di un sito web aziendale.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Le mie passioni principali nel campo informatico riguardano le applicazioni web e la computer grafica, con un forte interesse verso le innovazioni hardware.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Sono istruttore presso la <a href="http://www.scuola9armonieconselve.it/">A.S.D. Scuola delle Nove Armonie Conselve</a> dal 2014 e vicepresidente dal 2016. Ho partecipato a numerosi incontri organizzati dal CSI e dal CONI per la formazione sportiva, ricevedo i relativi attestati di partecipazione. Ho conseguito tutti i brevetti di nuoto, giocando per 5 anni a Pallanuoto a livello agonistico, e pratico amatorialmente sci e snowboard.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Sono appassionato di fotografia digitale e, tramite corsi online, ho imparato ad utilizzare i due principali software per l'elaborazione di immagini digitali: Adobe Photoshop e Adobe Lightroom.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Ho un forte interesse per la cinematografia internazionale, per la letteratura e il fumetto.</p>
-                </div>
-            </div>
-        </div>
-        <p id="curriculum"><a href="doc/CV-Europass-20160403-Magagna-IT.pdf">Curriculum Vitae</a></p>
-    </section>
-
-    <!-- Footer -->
-    <footer id="contact" class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>Quartiere della Fornace</p>
-                        <p>Conselve, PD</p>
-                    </div>
-
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://www.facebook.com/simone.magagna" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/simone-magagna-1b741a10b?trk=nav_responsive_tab_profile_pic" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/SimoneMagagna" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>E-mail</h3>
-                        <p><a href="mailto:simone.magagna91@gmail.com">simone.magagna@gmail.com</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visible-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>QuizziPedia</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/QuizziPedia.png" class="img-responsive img-centered" alt="">
-                            <p>QuizziPedia è un'applicazione web per la creazione, compilazione e condivisione di questionari, volta a identificare
-                                le lacune dei candidati prima, durante e al termine di un corso di formazione. Il software è stato sviluppato da un
-                                team composto da sette persone come progetto del corso universitario Ingegneria del Software e proposto dall'azienda
-                                Zucchetti S.P.A.
-                                Le principali tecnologie utilizzate sono: Angular.js, Node.js e MongoDB.
-                                Il progetto e i documenti richiesti dal corso, hanno permesso ai membri del team di capire e conoscere le dinamiche del
-                                lavoro di gruppo e il software disponibile per rendere questa cooperazione più agevole (LaTex, Zoho, Github...).</p>
-                            <ul class="list-inline item-details">
-                                <li>Github:
-                                    <strong><a href="https://github.com/TheFellowshipOfTheCode">QuizziPedia</a>
-                                    </strong>
-                                </li>
-                                <li>Periodo di sviluppo:
-                                    <strong>Ottobre 2015 - Giugno 2016</strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Scuola delle Nove Armonie Conselve</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/Scuola.jpg" class="img-responsive img-centered" alt="">
-                            <p>Sito web sviluppato per l'A.S.D. Scuola delle Nove Armonie Conselve come progetto del corso Tecnologie Web.
-                            Oltre all'utilizzo di moderne tecnologie (HTML5, CSS3, JavaScript, JQuery), lo sviluppo del software ha permesso al team di sviluppo, composto da
-                            quattro persone, di apprendere l'importanza dell'accessibilità e dell'usabilità di un sito internet.</p>
-                            <ul class="list-inline item-details">
-                                <li>Link al sito:
-                                    <strong><a href="http://www.scuola9armonieconselve.it/">Scuola delle Nove Armonie Conselve</a>
-                                    </strong>
-                                </li>
-                                <li>Periodo di sviluppo:
-                                    <strong>Ottobre 2014 - Dicembre 2015</strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>LinQuedin</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/LinQedin.PNG" class="img-responsive img-centered" alt="">
-                            <p>LinQuedin è un software che simula il noto portale Linkedin. Sviluppato utilizzando il pattern MVC, utilizza
-                            il linguaggio C++ per la gestione della logica e il framework Qt per la gestione delle componenti grafiche. Progetto
-                            di Programmazione ad Oggetti sviluppato individualmente.</p>
-                            <ul class="list-inline item-details">
-                                <li>Github:
-                                    <strong>
-                                        <a href="https://github.com/SimoneMagagna/LinQedIn">LinQuedin</a>
-                                    </strong>
-                                </li>
-                                <li>Periodo di sviluppo:
-                                    <strong>Gennaio 2015 - Marzo 2015</strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/freelancer.js"></script>
-
+<body>
+	<div id="header">
+		<h1><a href="index.html">Scuola delle Nove Armonie Conselve</span></a></h1>
+		<ul id="navigation">
+			<li class="current">
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="about.html">La Scuola</a>
+			</li>
+			<li>
+				<a href="courses.html">Sedi e corsi</a>
+			</li>
+			<li>
+				<a href="tai_chi.html">T'ai C'hi Chuan</a>
+			</li>
+			<li>
+				<a href="kung_fu.html">Kung Fu</a>
+			</li>
+			<li>
+				<a href="master.html">Maestro</a>
+			</li>
+			<li>
+				<a href="instructors.html">Istruttori</a>
+			</li>
+			<li>
+				<a href="contact.html">Contatti</a>
+			</li>
+			<li>
+				<a href="photo.html">Foto</a>
+			</li>
+		</ul>
+	</div>
+	<div id="body">
+	<h2>Scuola di arti marziali cinesi e tibetane</h2>
+		<div class="content">
+			<div>
+			<p>	La Scuola delle 9 Armonie Conselve di Kung Fu tradizionale cinese e tibetano e di <span title="tai ci ciuan">T'ai C'hi Chuan</span> pratica 9 stili sia della Cina settentrionale che meridionale.
+				E' un'Associazione Sportiva Dilettantistica senza fini di lucro ed è presente nel territorio dal 2005.
+				Si ispira ai principi di non violenza e rispetto delle diversità, ed ha come obiettivo la divulgazione della pratica del Kung Fu e del T'ai C'hi Chuan nella loro forma più pura e tradizionale, in modo da permettere a chiunque di conoscere e praticare queste antichissime arti risalenti a più di 4000 anni fa.</p>
+			<p>	Se studiata in maniera approfondita ed appropriata, quest'arte evidenzia aspetti molto pratici che coinvolgono la difesa personale, il controllo di se stessi e delle proprie emozioni, in particolare quelle negative.
+				Infatti i movimenti del Kung Fu e del <span title="tai ci ciuan">T'ai C'hi Chuan</span> oltre a generare un benessere psicofisico e un conseguente sviluppo di energia interna, migliorano anche la vita generando calma e pace interiore.
+				La Scuola offre inoltre corsi specifici di difesa personale, nei quali vengono studiati metodi di difesa contro aggressioni a mani nude, con armi da taglio e da fuoco, andando ad applicare tutte le tecniche studiate all'interno delle forme che sono nel programma e non solo.</p>
+			<p id="cit">
+				<em>"Non fare mai movimenti inutilmente complessi, muoviti quanto basta per ottenere il risultato che vuoi ottenere."</em>
+			</p>
+			</div>
+			<img src="images/dragon.png" id="dragon_img">
+		</div>
+	</div>
+	<div id="footer">
+		<div id="info">
+			<p>
+				E-mail: info@scuola9armonieconselve.it
+			</p>
+			<p>
+				Telefono: 347 8480028
+			</p>
+		</div>
+		<div id="connect">
+			<a href="https://www.facebook.com/ASD-Scuola-Delle-Nove-Armonie-Conselve-421687384603863/" id="facebook" target="_blank">Facebook</a>
+		</div>
+	</div>
 </body>
-
 </html>
