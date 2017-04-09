@@ -53,7 +53,7 @@ var fg_my_content = {
                 
         gallery_1: {
                         
-                cover_thumb: 'master/_IGP4932small.jpg',
+                cover_thumb: 'master/IGP4932small.jpg',
                         
                         // Gallery cover image file path
                         // (compulsory).
@@ -95,7 +95,7 @@ var fg_my_content = {
                         // thumbnail dimensions, flipGallery will
                         // automatically crop it for you.
                         
-                        enlarged: 'master/_IGP4932.jpg',
+                        enlarged: 'master/IGP4932.jpg',
                         
                         // Image enlargement file path (compulsory).
 
