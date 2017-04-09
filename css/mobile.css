@@ -1,14 +1,13 @@
 /* Website template by freewebsitetemplates.com */
 @media only screen and (max-width : 800px) {
 	body {
-	background: url(../images/mobile_background.jpg) no-repeat center top;
+	background: url(../images/mobile_background.jpg) no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;
-	height: auto;
-	width:auto;
+	
 	}
 	
 	#mobile-navigation {
