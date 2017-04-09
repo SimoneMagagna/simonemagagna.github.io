@@ -84,7 +84,7 @@ var fg_my_content = {
                         
                 image_1: {
                         
-                        thumb: 'master/_IGP4932small.jpg',
+                        thumb: 'master/IGP4932small.jpg',
                         
                         // Image thumbnail file path (compulsory).
 
@@ -118,10 +118,10 @@ var fg_my_content = {
 
                 image_2: {
                         
-                        thumb: 'master/_IGP4964small.jpg',
+                        thumb: 'master/IGP4964small.jpg',
                         // Image thumbnail file path (compulsory).
                         
-                        enlarged: 'master/_IGP4964.jpg',
+                        enlarged: 'master/IGP4964.jpg',
                         // Image enlargement file path (compulsory).
                         
                         text: ''
@@ -131,10 +131,10 @@ var fg_my_content = {
                 
                 image_3: {
                         
-                        thumb: 'master/_IGP4965small.jpg',
+                        thumb: 'master/IGP4965small.jpg',
                         // Image thumbnail file path (compulsory).
                         
-                        enlarged: 'master/_IGP4965.jpg',
+                        enlarged: 'master/IGP4965.jpg',
                         // Image enlargement file path (compulsory).
                         
                         text: ''
