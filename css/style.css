@@ -1,5 +1,5 @@
 body {
-	background: url(../images/background.jpg) no-repeat center top;
+	background: url(../images/background.jpg) no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -89,7 +89,41 @@ p a:hover {
 	font-size: 26px;
 	text-transform: uppercase;
 }
+
+#header div#titleArea {
+	text-align: center;
+}
+
+#header div#upTitle {
+	display: inline-block;
+}
+
+#header div#titleArea span#scuolaTitle {
+	float: left
+}
+
+#header div#titleArea span#armonieTitle {
+	float: left;
+}
+
+#header div#titleArea span#conselveTitle a{
+	font-size: 50px;
+}
+
+#header div#titleArea img#logo {
+	float: left;
+	height: 100px;
+	width: 100px;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#header span#mobileTitle {
+	display: none;
+}
+
 #header ul#navigation {
+	display: inline-block;
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -548,11 +582,10 @@ p.center_caption {
 #footer div#connect a {
 	display: block;
 	float: left;
-	text-indent: -99999px;
 }
 #footer div#connect a#facebook {
-	background: url(../images/facebook_white.png) no-repeat;
+	background: url(../images/facebook.png) no-repeat;
 	background-position: 0 0;
 	height: 60px;
-	width: 46px;
+	width: 60px;
 }

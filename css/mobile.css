@@ -1,13 +1,13 @@
 /* Website template by freewebsitetemplates.com */
 @media only screen and (max-width : 800px) {
 	body {
-	background: url(../images/mobile_background.jpg) no-repeat;
+	background: url(../images/background.jpg) no-repeat center top;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;
-	
+		width: auto;
 	}
 	
 	#mobile-navigation {
@@ -27,6 +27,14 @@
 		position: relative;
 		width: 95%;
 	}
+	
+	#header div#titleArea {
+		display: none;
+	}
+	
+	#header span#mobileTitle {
+	display: inline;
+}
 	
 	#header ul#navigation {
 		background-color: rgba(236,169,121,0.95);
@@ -295,7 +303,7 @@
 		max-width: 185px;
 	}
 	#footer div#connect a#facebook {
-		background: url(../images/facebook_white.png) no-repeat;
+		background: url(../images/facebook.png) no-repeat;
 		float: none;
 		margin: 0 auto;
 		background-position: 0 0;
