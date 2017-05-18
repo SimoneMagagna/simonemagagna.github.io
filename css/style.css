@@ -377,6 +377,7 @@ p.center_caption {
 }
 
 #body div.content .mappa {
+	display: block;
 	float: right;
 	width: 350px;
 	height: 250px;
