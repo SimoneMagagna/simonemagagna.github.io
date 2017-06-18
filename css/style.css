@@ -283,8 +283,8 @@ p.center_caption {
 }
 
 #body div.content img.tai_kung_photo {
-	height: 240px;
-	width: 360px;
+	width: 41%;
+	height: auto;
 	margin-top: 10px;
 	border: 2px solid chocolate;
 }
