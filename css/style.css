@@ -377,12 +377,12 @@ p.center_caption {
 }
 
 #body div.content .mappa {
+	margin: 5px;
 	display: block;
 	float: right;
 	width: 350px;
 	height: 250px;
 	border: 2px solid chocolate;
-	margin: 5px;
 }
 
 #body form {

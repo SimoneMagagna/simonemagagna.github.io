@@ -53,7 +53,7 @@ var fg_my_content = {
                 
         gallery_1: {
                         
-                cover_thumb: 'master/_IGP4932small.jpg',
+                cover_thumb: 'master/IGP4932small.jpg',
                         
                         // Gallery cover image file path
                         // (compulsory).
