@@ -147,7 +147,7 @@ var fg_my_content = {
                         thumb: 'master/969small.jpg',
                         // Image thumbnail file path (compulsory).
                         
-                        enlarged: 'master/969.jpg',
+                        enlarged: 'master/969.JPG',
                         // Image enlargement file path (compulsory).
                         
                         text: ''
@@ -160,7 +160,7 @@ var fg_my_content = {
                         thumb: 'master/DSC_2993small.jpg',
                         // Image thumbnail file path (compulsory).
                         
-                        enlarged: 'master/DSC_2993.jpg',
+                        enlarged: 'master/DSC_2993.JPG',
                         // Image enlargement file path (compulsory).
                         
                         text: ''
@@ -173,7 +173,7 @@ var fg_my_content = {
                         thumb: 'master/DSC_2996small.jpg',
                         // Image thumbnail file path (compulsory).
                         
-                        enlarged: 'master/DSC_2996.jpg',
+                        enlarged: 'master/DSC_2996.JPG',
                         // Image enlargement file path (compulsory).
                         
                         text: ''
