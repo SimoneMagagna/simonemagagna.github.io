@@ -95,7 +95,7 @@ var fg_my_content = {
                         // thumbnail dimensions, flipGallery will
                         // automatically crop it for you.
                         
-                        enlarged: 'master/_IGP4932.jpg',
+                        enlarged: 'master/IGP4932.jpg',
                         
                         // Image enlargement file path (compulsory).
 
@@ -118,10 +118,10 @@ var fg_my_content = {
 
                 image_2: {
                         
-                        thumb: 'master/_IGP4964small.jpg',
+                        thumb: 'master/IGP4964small.jpg',
                         // Image thumbnail file path (compulsory).
                         
-                        enlarged: 'master/_IGP4964.jpg',
+                        enlarged: 'master/IGP4964.jpg',
                         // Image enlargement file path (compulsory).
                         
                         text: ''
@@ -131,10 +131,10 @@ var fg_my_content = {
                 
                 image_3: {
                         
-                        thumb: 'master/_IGP4965small.jpg',
+                        thumb: 'master/IGP4965small.jpg',
                         // Image thumbnail file path (compulsory).
                         
-                        enlarged: 'master/_IGP4965.jpg',
+                        enlarged: 'master/IGP4965.jpg',
                         // Image enlargement file path (compulsory).
                         
                         text: ''
